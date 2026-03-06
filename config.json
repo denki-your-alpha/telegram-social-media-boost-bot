@@ -1,62 +1,31 @@
 {
-  "api_url": "https://bitrahq.com/api/v1/services.php",
-  "api_key": "ef209f45e59848126a807ef654d36e9c",
-  "required_channels": [
-    {
-      "id": -1001234567890,
-      "username": "DENKI_CRASHER",
-      "name": "📢 𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑 𝖈𝖍𝖆𝖓𝖓𝖊𝖑"
+  "BOT_NAME": "Social Media Boost Bot",
+  "API_BASE_URL": "https://bitrahq.com/api/v1/services.php",
+  "FEATURES": {
+    "REDEEM": true,
+    "DATA_PURCHASE": true,
+    "BOOST": true,
+    "AFFILIATE": true
+  },
+  "PRICING": {
+    "INSTAGRAM": {
+      "FOLLOWERS": 50,
+      "LIKES": 25,
+      "COMMENTS": 30,
+      "VIEWS": 20
+    },
+    "TIKTOK": {
+      "FOLLOWERS": 40,
+      "LIKES": 20,
+      "VIEWS": 15,
+      "COMMENTS": 25
+    },
+    "YOUTUBE": {
+      "SUBSCRIBERS": 60,
+      "LIKES": 35,
+      "VIEWS": 25
     }
-  ],
-  "prices": [
-    {
-      "id": "instagram_likes",
-      "name": "Instagram Likes",
-      "quantity": 100,
-      "price": 2000,
-      "api_service": "instagram_likes"
-    },
-    {
-      "id": "instagram_followers",
-      "name": "Instagram Followers",
-      "quantity": 50,
-      "price": 3000,
-      "api_service": "instagram_followers"
-    },
-    {
-      "id": "tiktok_likes",
-      "name": "TikTok Likes",
-      "quantity": 500,
-      "price": 1500,
-      "api_service": "tiktok_likes"
-    },
-    {
-      "id": "tiktok_followers",
-      "name": "TikTok Followers",
-      "quantity": 100,
-      "price": 2500,
-      "api_service": "tiktok_followers"
-    },
-    {
-      "id": "youtube_views",
-      "name": "YouTube Views",
-      "quantity": 1000,
-      "price": 2000,
-      "api_service": "youtube_views"
-    }
-  ],
-  "payment_accounts": [
-    {
-      "id": "account_1",
-      "bank": "GTBank",
-      "account_name": "John Doe",
-      "account_number": "0123456789"
-    },
-    {
-      "id": "account_2",
-      "bank": "Access Bank",
-      "account_name": "Jane Doe",
-      "account_number": "0987654321"
-    }
-  ]
+  },
+  "MIN_WITHDRAWAL": 1000,
+  "CURRENCY": "NGN"
 }
