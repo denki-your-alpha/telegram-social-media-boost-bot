@@ -1,0 +1,22 @@
+{
+  "name": "telegram-boost-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for social media account boosting",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["telegram", "bot", "boost", "social-media"],
+  "author": "d3nki_dev",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "node-schedule": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
